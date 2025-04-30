@@ -1,0 +1,3 @@
+sudo hping3 -1 -i u10000 -c 250 127.0.0.1 # ICMP PING FLOOD
+
+sudo hping3 -i u1000 -S -c 100 -p 1234 10.0.0.7 # SYNFLOOD
